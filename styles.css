@@ -1,0 +1,494 @@
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Handlee', cursive;
+}
+h2 {
+    color: #003821;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+}
+h3 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Handlee', cursive;
+}
+h4 {
+    color: #003921;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    
+}
+p {
+    color: #003921;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.layout {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+    width: 100%;
+}
+.layout > * {
+    padding: 10px;
+    flex: 1 1 100%;
+}
+.header {
+    background-color: #006DAA;
+}
+svg {
+    fill: aliceblue;
+}
+.menubar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+}
+.navigation li a {
+    width: 15vw;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #CFB3CD;
+    padding: 10%;
+    font-family: 'Oswald', sans-serif;
+}
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: #003921;
+    font-size: 18px;
+}
+li a:hover {
+    background-color: #003921;
+    color: #CFB3CD;
+    border: 3px solid #CFB3CD;
+}
+li a:focus {
+    outline: 2px solid #CFB3CD;
+}
+.main {
+    background-color: #FDF8F8;
+    display: flex;
+    flex-direction: column;
+}
+.about {
+    background-color: #899D78;
+    padding: 3%;
+    border: 3px solid #006DAA;
+    border-radius: 5px;
+}
+.members {
+    background-image: url("images/members1.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+.about2 {
+    background-color: #899D78;
+    padding: 3%;
+    border: 3px solid #006DAA;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.band {
+    background-image: url("images/band.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    width: 50vw;
+    border-radius: 5px;
+    margin-left: 23%;
+    margin-top: 5%;
+}
+.show {
+    background-image: url("images/show.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    width: 50vw;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    margin-left: 23%;
+    margin-top: 4%;
+}
+.gallery {
+    background-color: #899D78;
+    padding: 3%;
+    border: 3px solid #006DAA;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+.sail-away {
+    margin-left: 10%;
+    margin-top: -6%;
+}
+.santeria {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: -6%;
+}
+.texas {
+    margin-left: 10%;
+    margin-top: -6%;
+}
+.sunshine {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: -6%;
+}
+.contact {
+    background-color: #899D78;
+    padding: 3%;
+    padding-top: .5%;
+    border: 3px solid #006DAA;
+    border-radius: 5px;
+}
+.pricing {
+    background-color: #899D78;
+    padding: 3%;
+    padding-top: .5%;
+    border: 3px solid #006DAA;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.availabilty {
+    background-color: #899D78;
+    padding: 3%;
+    padding-top: .5%;
+    border: 3px solid #006DAA;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.align-right {
+    text-align: right;
+}
+fieldset {
+    color: #003821;
+    border: none;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+input {
+    width: 25vw;
+    height: 3vh;
+    border: 2px solid #003821;
+}
+input:focus {
+    outline: 2px solid #CFB3CD;
+}
+button {
+    height: 4vh;
+    width: 25vw;
+    background-color: #CFB3CD;
+    color: #003821;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    border: 2px solid #003821;
+}
+button:hover {
+    background-color: #003821;
+    color: #CFB3CD;
+    border: 2px solid #CFB3CD;
+}
+button:focus {
+    outline: 2px solid #CFB3CD;
+}
+.footer {
+    display: flex;
+    background-color: #006DAA;
+}
+.logo {
+    flex-basis: 40%;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    margin-left: 5%;
+}
+.info {
+    flex-basis: 80%;
+    text-align: left;
+    margin-left: 10%;
+}
+.alice-blue {
+    color: aliceblue;
+}
+@media screen and (min-width: 600px) {
+    .santeria {
+        margin-top: 2%;
+        margin-left: 19%;
+    }
+    .texas {
+        margin-left: 19%;
+        margin-top: -3%;
+    }
+    .sunshine {
+        margin-left: 19%;
+        margin-top: 2%;
+    }
+    .sail-away {
+        margin-left: 19%;
+        margin-top: -3%;
+    }
+    .show {
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+}
+@media screen and (min-width: 770px) {
+
+    .santeria {
+        margin-top: 2%;
+        margin-left: 24%;
+    }
+    .texas {
+        margin-left: 24%;
+        margin-top: -3%;
+    }
+    .sunshine {
+        margin-left: 24%;
+        margin-top: 2%;
+    }
+    .sail-away {
+        margin-left: 24%;
+        margin-top: -3%;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .navigation a {
+        font-size: 28px;
+    }
+    .content {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .about {
+        flex-basis: 40%;
+        padding: 1%;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    .members {
+        flex-basis: 30%;
+        margin-left: 4%;
+        background-color: #006DAA;
+        height: 81vh;
+        margin-top: 2%;
+    }
+    .about2 {
+        flex-basis: 75%;
+        padding: 1%;
+        margin-left: 14%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .band {
+        flex-basis: 30%;
+        margin-left: 20%;
+        margin-bottom: 3%;
+        margin-top: 1%;
+        background-color: #006DAA;
+    }
+    .show {
+        flex-basis: 30%;
+        margin-bottom: 3%;
+        margin-left: 6%;
+        margin-top: 1%;
+        background-color: #006DAA;
+    }
+    h1 {
+        font-size: 65px;
+    }
+    h2 {
+        font-size: 40px;
+        flex-basis: 10%;
+        margin-left: 2%;
+    }
+    h3 {
+        font-size: 50px;
+        flex-basis: 60%;
+    }
+    h4{
+        font-size: 25px;
+    }
+    p {
+        font-size: 24px;
+    }
+    .gallery {
+        flex-basis: 74%;
+        margin-left: 2%;
+        margin-top: 2%;
+        padding: 1%;
+    }
+    .sail-away {
+        margin-top: -7%;
+        margin-left: 15%;
+    }
+    .santeria {
+        margin-top: -7%;
+        margin-left: 5%;
+    }
+    .texas {
+        margin-left: 15%;
+        margin-top: -10%;
+        margin-bottom: 1%;
+    }
+    .sunshine {
+        margin-top: -10%;
+        margin-left: 5%;
+        margin-bottom: 1%;
+    }
+    video {
+        width: 34vw;
+        height: 40vh;
+    }
+    .contact {
+        flex-basis: 30%;
+        padding: 1%;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    .pricing {
+        flex-basis: 40%;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 0;
+        padding: 1%;
+    }
+    .availabilty {
+        flex-basis: 73%;
+        margin-left: 15%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .info {
+        flex-basis: 40%;
+        margin-top: 1%;
+    }
+    svg {
+        width: 50px;
+        height: 49px;
+    }
+}
+@media screen and (min-width: 1201px) {
+    .navigation a {
+        font-size: 29px;
+    }
+    .content {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .about {
+        flex-basis: 40%;
+        padding: 1%;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    .members {
+        flex-basis: 30%;
+        margin-left: 4%;
+        background-color: #006DAA;
+        height: 65vh;
+        margin-top: 2%;
+    }
+    .about2 {
+        flex-basis: 75%;
+        padding: 1%;
+        margin-left: 14%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .band {
+        flex-basis: 30%;
+        margin-left: 21%;
+        margin-bottom: 3%;
+        background-color: #006DAA;
+    }
+    .show {
+        flex-basis: 30%;
+        margin-bottom: 3%;
+        margin-left: 3%;
+        background-color: #006DAA;
+    }
+    h1 {
+        font-size: 65px;
+    }
+    h2 {
+        font-size: 40px;
+        flex-basis: 10%;
+        margin-left: 2%;
+    }
+    h3 {
+        font-size: 50px;
+        flex-basis: 60%;
+    }
+    h4{
+        font-size: 26px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .sail-away {
+        margin-top: -3%;
+        margin-left: 15%;
+    }
+    .santeria {
+        margin-top: -3%;
+        margin-left: 4%;
+    }
+    .texas {
+        margin-left: 15%;
+        margin-top: -6%;
+        margin-bottom: 1%;
+    }
+    .sunshine {
+        margin-top: -6%;
+        margin-left: 4%;
+        margin-bottom: 1%;
+    }
+    video {
+        width: 35vw;
+        height: 40vh;
+    }
+    .contact {
+        flex-basis: 30%;
+        padding: 1%;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    .pricing {
+        flex-basis: 40%;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 0;
+        padding: 1%;
+    }
+    .availabilty {
+        flex-basis: 73%;
+        margin-left: 14%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .info {
+        flex-basis: 40%;
+        margin-top: 1%;
+    }
+    svg {
+        width: 50px;
+        height: 49px;
+    }
+}
