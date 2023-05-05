@@ -1,31 +1,31 @@
 h1 {
     color: aliceblue;
     text-align: center;
-    font-size: 50px;
+    font-size: 4rem;
     font-family: 'Handlee', cursive;
 }
 h2 {
     color: #003821;
     text-align: center;
-    font-size: 32px;
+    font-size: 2.5rem;
     font-family: 'Oswald', sans-serif;
 }
 h3 {
     color: aliceblue;
     text-align: center;
-    font-size: 26px;
+    font-size: 1.7rem;
     font-family: 'Handlee', cursive;
 }
 h4 {
     color: #003921;
-    font-size: 22px;
+    font-size: 1.5rem;
     text-align: center;
     font-family: 'Handlee', cursive;
     
 }
 p {
     color: #003921;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-family: 'Oswald', sans-serif;
 }
 .layout {
@@ -64,7 +64,7 @@ svg {
     display: block;
     text-decoration: none;
     color: #003921;
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 li a:hover {
     background-color: #003921;
@@ -181,7 +181,7 @@ li a:focus {
 fieldset {
     color: #003821;
     border: none;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-family: 'Oswald', sans-serif;
 }
 input {
@@ -198,7 +198,7 @@ button {
     background-color: #CFB3CD;
     color: #003821;
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
+    font-size: 1.2rem;
     border: 2px solid #003821;
 }
 button:hover {
@@ -267,10 +267,13 @@ button:focus {
         margin-left: 24%;
         margin-top: -3%;
     }
+    h3 {
+        font-size: 2rem;
+    }
 }
 @media screen and (min-width: 1025px) {
     .navigation a {
-        font-size: 28px;
+        font-size: 1.7rem;
     }
     .content {
         display: flex;
@@ -311,22 +314,22 @@ button:focus {
         background-color: #006DAA;
     }
     h1 {
-        font-size: 65px;
+        font-size: 4.5rem;
     }
     h2 {
-        font-size: 40px;
+        font-size: 2.8rem;
         flex-basis: 10%;
         margin-left: 2%;
     }
     h3 {
-        font-size: 50px;
+        font-size: 2.7rem;
         flex-basis: 60%;
     }
     h4{
-        font-size: 25px;
+        font-size: 1.7rem;
     }
     p {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
     .gallery {
         flex-basis: 74%;
@@ -386,7 +389,7 @@ button:focus {
 }
 @media screen and (min-width: 1201px) {
     .navigation a {
-        font-size: 29px;
+        font-size: 2rem;
     }
     .content {
         display: flex;
@@ -425,22 +428,22 @@ button:focus {
         background-color: #006DAA;
     }
     h1 {
-        font-size: 65px;
+        font-size: 4.7rem;
     }
     h2 {
-        font-size: 40px;
+        font-size: 3rem;
         flex-basis: 10%;
         margin-left: 2%;
     }
     h3 {
-        font-size: 50px;
+        font-size: 3.5rem;
         flex-basis: 60%;
     }
     h4{
-        font-size: 26px;
+        font-size: 1.9rem;
     }
     p {
-        font-size: 25px;
+        font-size: 1.7rem;
     }
     .sail-away {
         margin-top: -3%;
@@ -490,5 +493,11 @@ button:focus {
     svg {
         width: 50px;
         height: 49px;
+    }
+    fieldset {
+        font-size: 1.6rem;
+    }
+    button {
+        font-size: 1.4rem;
     }
 }
